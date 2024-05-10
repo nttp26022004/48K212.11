@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+
+}
+.container-item{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-item1{
+    width: 50%;
+    height: 729px;
+    background-repeat: no-repeat;
+}
+
+.form-logo__img{
+    margin-top: 20px;
+    width: 25%;
+    margin-bottom: 110px;
+}
+
+.form-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    border-radius: 25px;
+    height: 370px;
+    border: 1px solid rgba(46, 141, 171, 0.27);
+}
+
+.form-login-title{
+    margin: 0;
+    padding-top: 40px;
+    color: #18638D;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+}
+
+.form-item1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item{
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.form-icon{
+    font-size: 1.4rem;
+    margin-left: 15px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+
+.form-input{
+    width: 100%;
+    outline: none;
+    font-size: 1.4rem;
+    border: none;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+
+ .form-item:hover{
+    border: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+
+.form-maintain{
+    width: 83%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+
+.form-text{
+    font-size: 1.2rem;
+    color: #000;
+    padding-left: 5px;
+}
+
+.form__btn{
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border:none ;
+    background:linear-gradient(to right, #90C0DA 0%, #008CBA 51%, #90C0DA 100%);
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+    background-size: 200% auto;
+    cursor: pointer;
+}
+
+.form__btn:hover{
+    background-position: right center;
+}

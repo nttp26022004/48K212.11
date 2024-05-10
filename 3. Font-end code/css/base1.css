@@ -1,0 +1,32 @@
+*{
+    box-sizing: inherit;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+}
+
+
+.grip-column_3{
+    width: 20%;
+    height: 100vh;
+}
+
+.grip-column_9{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.03);
+}

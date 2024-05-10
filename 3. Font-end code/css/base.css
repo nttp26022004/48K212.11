@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: inherit;
+    padding: 0;
+}
+
+html{
+    /* 1rem = 16px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+ body {
+    margin: 0;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+   :root {
+    
+    --font-inter: Inter;
+    --font-size-mid: 17px;
+    --color-white: #fff;
+    --br-31xl: 50px;
+  } 
+  
